@@ -1,0 +1,55 @@
+.NavigationBar * {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.navLink {
+  text-decoration: none;
+  font-size: 20px;
+  width: auto;
+  margin: 0 5px;
+  color: #363442;
+}
+
+.NavigationBar { 
+  width: 100%;
+  border-bottom: #2D5C89 solid 4px; 
+  border-top: #2D5C89 solid 1px; 
+  background-color: #d3b5894B; 
+  border-radius: 15px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.NavigationBar > ul {
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavigationBar > ul > li:not(:first-child) {
+  width: auto;
+  padding-left: 7px;
+  padding-right: 4px;
+}
+
+.NavigationBar > ul > li:first-child {
+  width: 200px;
+}
+
+.NavigationBar > ul > li > img { 
+  padding: 5px 5px 0 10px; 
+}
+
+.navLinkActive {
+  color: #41658D;
+  text-decoration: underline overline;
+  font-weight: 700;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 4px;
+}

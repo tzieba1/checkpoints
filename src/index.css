@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Colour Palette: #363442 #41658D #2D5C89 #818A8F #D3B589 */
+html{ background-color: #D3B58915;}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App, .App > * {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 450px;
+} 
+
+body *:not(.NavBar_MapTypeButtonContainerWrapper) {
+  width: 100%;
+}

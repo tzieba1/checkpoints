@@ -1,0 +1,24 @@
+.FilterForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  max-width: 700px;
+  margin: auto;
+  width: 80%;
+}
+
+.FilterForm > fieldset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 100%;
+}
+
+.FilterForm > fieldset >.Button { margin: 5px; width: 130px;}
+
+.FilterForm > fieldset > .FilterDropDown { width: 60%;}
+.FilterForm > fieldset > .FilterDropDown > option {max-width:400px; overflow:hidden;}

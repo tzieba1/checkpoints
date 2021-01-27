@@ -1,0 +1,8 @@
+.About * {display: flex; flex-direction: column; align-items: center;}
+
+.About > p, .About a {
+  width: auto;
+  display: inline-block;
+}
+
+.About > p {max-width: 80%; text-align: center;}

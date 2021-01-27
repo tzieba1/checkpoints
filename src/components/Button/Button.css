@@ -1,0 +1,15 @@
+.Button {
+  border: hidden;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #41658D;
+  color: #D3B589;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+.Button:hover {
+  transform: translateX(2px) translateY(2px);
+  background-color: #818A8F;
+  color: #363442;
+}

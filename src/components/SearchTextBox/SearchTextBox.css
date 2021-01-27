@@ -1,0 +1,8 @@
+.Search > .PetsTable > tbody > tr > td#actionCell, 
+.Search > .PetsTable > thead > tr > th#actionCell {
+  display: none;
+}
+
+.Search > .PetsTable > thead > tr > #priceCell {
+  border-radius: 0 15px 0 0; 
+}
